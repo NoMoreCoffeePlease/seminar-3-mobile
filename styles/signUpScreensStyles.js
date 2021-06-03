@@ -26,7 +26,8 @@ export const styles = StyleSheet.create({
       textAlign: "center",
       fontFamily: 'DM-Sans',
       fontWeight: 'bold',
-      color:'#dc0005'
+      color:'#dc0005',
+      fontSize:34
     },
     underText: {
       fontSize: 17,

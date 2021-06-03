@@ -11,8 +11,9 @@ const homeStyles = () => {
 export const styles = StyleSheet.create({
   homepage: {
     backgroundColor: "#F6F6F9",
-    padding: 30,
-    flex: 1
+    paddingHorizontal:25,
+    paddingVertical:35,
+    flex: 1.5
   },
   assetPage: {
     backgroundColor: "#FFFFFF",

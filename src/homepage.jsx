@@ -32,12 +32,15 @@ const Homepage = () => {
             <MaterialIcons name="notifications-none" size={24} color="black" />
           </TouchableOpacity>
         </View>
+        <View>
+          <Text>Good to see you again</Text>
+        </View>
         <View style={styles.text}>
           <Text style={styles.title}>Welcome, Jessie.</Text>
         </View>
         <View style={styles.portofolio}>
           <LinearGradient
-            colors={["#ff8b8e", "#31A078"]}
+            colors={["#ff8b8e", "#c80004"]}
             start={[0, 0.4947]}
             
             end={[0.9575, 0]}
