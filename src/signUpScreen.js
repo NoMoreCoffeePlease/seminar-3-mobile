@@ -23,7 +23,7 @@ const SingUpScreen = ({ navigation }) => {
           <Text style={styles.createButtonText}>Create account</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.loginButton}>
-          <Text style={styles.loginButtonText}>Login</Text>
+          <Text style={styles.loginButtonText}>Sign in</Text>
         </TouchableOpacity>
       </View>
     </View>
