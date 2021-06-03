@@ -39,6 +39,7 @@ const Homepage = () => {
           <LinearGradient
             colors={["#ff8b8e", "#31A078"]}
             start={[0, 0.4947]}
+            
             end={[0.9575, 0]}
             style={{
               borderRadius: 20,
