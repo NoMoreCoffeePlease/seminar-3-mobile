@@ -58,7 +58,7 @@ const Homepage = () => {
               <Text style={styles.money}>N203,935</Text>
               <View style={styles.investButton}>
                 <TouchableOpacity>
-                  <Text style={styles.investButtonText}>Invest now</Text>
+                  <Text style={styles.investButtonText}>Start Investing</Text>
                 </TouchableOpacity>
               </View>
             </View>
