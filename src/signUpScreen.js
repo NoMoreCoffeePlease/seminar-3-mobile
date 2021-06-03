@@ -1,9 +1,8 @@
 import React from "react";
 import { Text, View, TouchableOpacity, Image } from "react-native";
-import { styles } from '../styles/signUpScreensStyles';
+import { styles } from "../styles/signUpScreensStyles";
 
 const SingUpScreen = ({ navigation }) => {
-
   return (
     <View style={styles.mainPage}>
       <View style={styles.artwork}>
@@ -17,19 +16,21 @@ const SingUpScreen = ({ navigation }) => {
         </Text>
       </View>
       <View style={styles.buttons}>
-        <TouchableOpacity style={styles.createButton}
-        onPress={() => navigation.navigate('Login')}
+        <TouchableOpacity
+          style={styles.createButton}
+          onPress={() => navigation.navigate("Login")}
         >
           <Text style={styles.createButtonText}>Create account</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.loginButton}>
+        <TouchableOpacity
+          style={styles.loginButton}
+          onPress={() => navigation.navigate("Login")}
+        >
           <Text style={styles.loginButtonText}>Login</Text>
         </TouchableOpacity>
       </View>
     </View>
   );
 };
-
-
 
 export default SingUpScreen;
