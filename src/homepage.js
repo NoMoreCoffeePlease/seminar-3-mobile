@@ -66,7 +66,7 @@ const Homepage = () => {
             <TouchableOpacity>
               <Text style={styles.seeAllText}>
                 See All
-                <AntDesign name="arrowright" size={18} color="#FE555D" />
+                <AntDesign name="arrowright" size={24} color="#FE555D" />
               </Text>
             </TouchableOpacity>
           </View>
