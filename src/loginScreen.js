@@ -21,7 +21,7 @@ const LoginScreen = ({ navigation }) => {
             <View style={styles.text}>
               <Text style={styles.title}>Create an account</Text>
               <Text style={styles.subTitle}>
-                Invest and double your income now
+                Invest in NMCP, get 10x
               </Text>
             </View>
             <View style={styles.inputs}>
