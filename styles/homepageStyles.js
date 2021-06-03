@@ -103,7 +103,7 @@ export const styles = StyleSheet.create({
     fontFamily: "SF-Pro",
   },
   guide: {
-    marginTop: 48,
+    marginTop: 60,
     flex: 0.5
   },
   guideText: {
