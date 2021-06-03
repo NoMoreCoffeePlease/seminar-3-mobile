@@ -32,6 +32,9 @@ const Homepage = () => {
             <MaterialIcons name="notifications-none" size={24} color="black" />
           </TouchableOpacity>
         </View>
+        <View>
+          <Text>Good to see you again</Text>
+        </View>
         <View style={styles.text}>
           <Text style={styles.title}>Welcome, Jessie.</Text>
         </View>
