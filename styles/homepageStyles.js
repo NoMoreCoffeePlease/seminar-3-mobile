@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#F6F6F9",
     paddingHorizontal:25,
     paddingVertical:35,
-    flex: 1
+    flex: 1.5
   },
   assetPage: {
     backgroundColor: "#FFFFFF",
