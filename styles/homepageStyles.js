@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#F6F6F9",
     paddingHorizontal:25,
     paddingVertical:35,
-    flex: 1
+    flex: 1.5
   },
   assetPage: {
     backgroundColor: "#FFFFFF",
@@ -103,7 +103,7 @@ export const styles = StyleSheet.create({
     fontFamily: "SF-Pro",
   },
   guide: {
-    marginTop: 48,
+    marginTop: 60,
     flex: 0.5
   },
   guideText: {
