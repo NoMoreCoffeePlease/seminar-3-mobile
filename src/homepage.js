@@ -37,7 +37,7 @@ const Homepage = () => {
         </View>
         <View style={styles.portofolio}>
           <LinearGradient
-            colors={["#31A05F", "#31A078"]}
+            colors={["#ff8b8e", "#31A078"]}
             start={[0, 0.4947]}
             end={[0.9575, 0]}
             style={{
